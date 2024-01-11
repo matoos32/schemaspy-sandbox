@@ -98,7 +98,7 @@ schemaspy.p=<db password>
 # output dir to save generated files
 schemaspy.o=/home/<os user>/databases/schemaspy/output
 
-# db scheme for which generate diagrams
+# db schema for which to generate diagrams
 schemaspy.s=public
 
 schemaspy.debug=false
@@ -117,7 +117,7 @@ Maybe the `<db user>` and `<db password>` fields can be specified at the command
 ssh -L 5432:localhost:5432 <db host username>@<db host>
 ```
 
-The above will forward client local traffic to the PG database to the database host, and within the
+The above will forward client localhost traffic to the database host, and within the
 database host the traffic will be forwarded to a localhost connection to the DB.
 
 ### Run SchemaSpy
