@@ -25,7 +25,7 @@ output for the *Pagila* sample database. SchemaSpy will connect via an
 
 ### Assumptions
 
-- The PostgreSQL (PG) cluster is already setup and running.
+- The PG cluster is already setup and running.
 
 - A user is created in the PG host operating system and who is able to connect via SSH.
 
